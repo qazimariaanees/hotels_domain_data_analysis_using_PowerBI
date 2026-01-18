@@ -1,79 +1,97 @@
-# hotels_domain_data_analysis_using_PowerBI
-# 🏨 Hotel Revenue Analytics Dashboard
+# 🏨 Hotel Revenue Analytics Dashboard (Power BI)
 
-A **data-driven Business Intelligence dashboard** designed to analyze hotel performance across multiple cities, properties, room types, and booking platforms.  
-This project helps stakeholders make **smarter pricing, occupancy, and revenue decisions** using key hospitality metrics.
+An **end-to-end Business Intelligence project built entirely in Power BI**, focused on analyzing hotel revenue performance across cities, properties, room categories, and booking platforms.
+
+This dashboard converts **raw hotel data into actionable insights** using Power BI’s data cleaning, modeling, and visualization capabilities.
 
 ---
 
 ## 📊 Dashboard Preview
 
-![Dashboard Preview](./assets/dashboard.png)
+#![Dashboard Preview](./assets/dashboard.png)
+<img width="1591" height="918" alt="image" src="https://github.com/user-attachments/assets/ab85a691-dcce-4887-9d7e-d5484892f478" />
 
-> *Interactive dashboard showcasing revenue, occupancy trends, ADR, RevPAR, and property-level performance.*
 
----
-
-## 🚀 Key Features
-
-- 📈 **Revenue & Growth Analysis**
-  - Total Revenue
-  - Week-on-Week (WoW) performance comparison
-
-- 🏷 **Core Hospitality KPIs**
-  - **RevPAR** – Revenue per Available Room  
-  - **ADR** – Average Daily Rate  
-  - **Occupancy %**  
-  - **Realisation %**
-
-- 🏙 **City & Property-Level Insights**
-  - Performance comparison across cities
-  - Property-wise revenue and utilization
-
-- 📅 **Time-Based Trends**
-  - Weekly trends (W19–W31)
-  - Month-wise comparison
-
-- 🌐 **Booking Platform Analysis**
-  - ADR vs Realisation by platform
-  - Identification of high-performing channels
-
-- ⭐ **Customer Experience Metrics**
-  - Cancellation %
-  - Average Ratings
+> *Interactive Power BI dashboard for hotel revenue and performance analysis.*
 
 ---
 
-## 🧠 Business Questions Answered
+## 🚀 Key Highlights
 
-- Which **city and property** generates the highest revenue?
-- How does **occupancy impact RevPAR** over time?
-- Which **booking platform** gives better realization?
-- Are weekends performing better than weekdays?
-- Where are **cancellations impacting revenue** the most?
-
----
-
-## 🛠 Tech Stack
-
-- **Power BI / Tableau** – Dashboard & Visualization  
-- **SQL** – Data extraction & transformations  
-- **Excel / CSV** – Source data  
-- **DAX / Measures** – KPI calculations  
-
-*(Tech stack may vary based on implementation)*
+- 🔹 **Complete project built only using Power BI**
+- 🔹 Data cleaning & transformation done in **Power Query**
+- 🔹 KPI calculations using **DAX**
+- 🔹 Interactive filters & slicers for dynamic analysis
+- 🔹 Hospitality-focused metrics & visuals
 
 ---
 
-## 📌 Important Metrics Explained
+## 📌 Key Metrics Tracked
 
-| Metric | Description |
-|------|------------|
-| RevPAR | Revenue per Available Room |
-| ADR | Average Daily Rate |
-| DSRN | Daily Sellable Room Nights |
-| DBRN | Daily Booked Room Nights |
-| DURN | Daily Utilized Room Nights |
-| Realisation % | Actual revenue vs potential revenue |
+- **Total Revenue**
+- **Occupancy %**
+- **Average Daily Rate (ADR)**
+- **Revenue per Available Room (RevPAR)**
+- **Realisation %**
+- **Daily Sellable / Booked / Utilized Room Nights**
+- **Cancellation %**
+- **Average Customer Rating**
 
+---
 
+## 🧹 Data Cleaning & Transformation (Power Query)
+
+All data preparation was performed **inside Power BI** using Power Query:
+
+- Removed duplicates & null values
+- Standardized city, property, and room category names
+- Created calculated columns for:
+  - Weekday vs Weekend
+  - Booking platform categories
+- Date formatting & week/month extraction
+- Merged multiple tables for analysis-ready model
+
+---
+
+## 🧠 Data Modeling
+
+- Star schema design within Power BI
+- Proper relationships between:
+  - Date
+  - Property
+  - Booking
+  - Revenue facts
+- Optimized for performance & accuracy
+
+---
+
+## 📐 DAX Measures Used
+
+- Revenue
+- Occupancy %
+- ADR
+- RevPAR
+- Realisation %
+- Week-on-Week (WoW) change
+- Weekend vs Weekday performance
+- Category-wise revenue split
+
+---
+
+## 📈 Business Insights Generated
+
+- 🏆 **Luxury category contributes ~62% of total revenue**
+- 📊 **Average occupancy around 58%**
+- 💰 High ADR properties do not always mean high RevPAR
+- 📅 Weekends outperform weekdays in occupancy & revenue
+- ⚠️ ~25% cancellations impact revenue realization
+
+---
+
+## 🎯 Business Questions Answered
+
+- Which **city & property** generate maximum revenue?
+- How does **occupancy affect RevPAR**?
+- Which **booking platforms** give better realization?
+- How do **weekends vs weekdays** perform?
+- Where are revenue leakages due to cancellations?

@@ -90,3 +90,7 @@ All data preparation was performed **inside Power BI** using Power Query:
 - Which **booking platforms** give better realization?
 - How do **weekends vs weekdays** perform?
 - Where are revenue leakages due to cancellations?
+
+
+✨ This project was created as a learning-based Power BI implementation by applying concepts through guided tutorials and hands-on practice.
+

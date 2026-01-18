@@ -8,7 +8,6 @@ This dashboard converts **raw hotel data into actionable insights** using Power 
 
 ## 📊 Dashboard Preview
 
-#![Dashboard Preview](./assets/dashboard.png)
 <img width="1591" height="918" alt="image" src="https://github.com/user-attachments/assets/ab85a691-dcce-4887-9d7e-d5484892f478" />
 
 
@@ -55,14 +54,9 @@ All data preparation was performed **inside Power BI** using Power Query:
 
 ## 🧠 Data Modeling
 
-- Star schema design within Power BI
-- Proper relationships between:
-  - Date
-  - Property
-  - Booking
-  - Revenue facts
-- Optimized for performance & accuracy
-
+- Designed star schema using fact and dimension tables
+- Established one-to-many relationships for accurate analysis
+  
 ---
 
 ## 📐 DAX Measures Used

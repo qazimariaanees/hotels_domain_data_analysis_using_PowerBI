@@ -8,7 +8,8 @@ This dashboard converts **raw hotel data into actionable insights** using Power 
 
 ## 📊 Dashboard Preview
 
-<img width="1591" height="918" alt="image" src="https://github.com/user-attachments/assets/ab85a691-dcce-4887-9d7e-d5484892f478" />
+<img width="1609" height="938" alt="image" src="https://github.com/user-attachments/assets/326bdbcb-d57f-441b-ab5d-2b794ccdbe84" />
+
 
 
 > *Interactive Power BI dashboard for hotel revenue and performance analysis.*
